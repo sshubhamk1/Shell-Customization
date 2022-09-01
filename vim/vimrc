@@ -1,0 +1,28 @@
+"set noexpandtab"
+set tabstop=4
+set number
+syntax on
+
+"set cursorcolumn"
+set cursorline
+
+"highlight CursorLineNR ctermbg=red"
+"highlight clear CursorLine"
+
+set shiftwidth=4
+set incsearch
+set ignorecase
+set smartcase
+set showcmd
+set showmode
+set showmatch
+set hlsearch
+set history=1000
+set wildmenu
+set wildmode=list:longest
+colorscheme sublimemonokai
+set colorcolumn=125
+
+filetype on
+filetype plugin on
+filetype indent on
